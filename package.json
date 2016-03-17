@@ -1,0 +1,14 @@
+{
+  "name": "jspm-vs-rollup",
+  "version": "1.0.0",
+  "description": "tests using jspm or rollup for bunding",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.31"
+  }
+}
