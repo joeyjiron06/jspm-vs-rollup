@@ -9,6 +9,23 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.31"
+    "gulp": "^3.9.1",
+    "jspm": "^0.16.31",
+    "rollup": "^0.25.4",
+    "rollup-plugin-babel": "^2.4.0",
+    "rollup-plugin-includepaths": "^0.1.1",
+    "babel-preset-es2015-rollup": "^1.1.1"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src",
+      "doc": "docs",
+      "lib": "src"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
